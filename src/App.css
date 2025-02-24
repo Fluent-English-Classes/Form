@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+.options{
+  margin:15px;
+  text-align:center;
+  border:2px solid black;
+  padding:5px;
+  cursor:pointer;
+  border-radius:10px;
+}
+.options:hover{
+  border:2px solid blue;
+  padding-left:10px;
+  padding-rifht:10px;
+  transition:0.1s ease-in;
+}
+.customButton {
+  padding: 1rem;
+  padding-left:2rem;
+  padding-right:2rem;
+  font-size: 1.25rem;
+  border: 2px solid #1E40AF;
+  border-radius: 0.75rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+.customButton:hover {
+  background-color: #1E40AF;
+  color: white;
+}
