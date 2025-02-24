@@ -3,7 +3,7 @@ import './App.css'
 import questions from './script.js'
 import { useState } from 'react'
 import Form from './components/Form.jsx'
-import image from './assets/logo.jpg'
+import image from './assets/logo.jpg'  
 
 function App() {
   const [form,setForm]=useState(false)
