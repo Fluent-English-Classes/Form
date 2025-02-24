@@ -27,7 +27,7 @@ function App() {
     alert("Choose a option")
   }
   return (
-    <div className='flex flex-col items-center h-full justify-evenly'>
+    <div className='flex flex-col items-center h-full justify-evenly bg-gradient-to-r from-blue-600 to-yellow-500'>
       {form ? <Form selectedOption={selectedOption}/>:
       <>
       <div className={`w-50 h-40 m-2 p-0 flex items-center justify-center `}>
